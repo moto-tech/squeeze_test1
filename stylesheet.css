@@ -1,0 +1,37 @@
+# squeeze_test1
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+.header{
+    height: 90px;
+    background-color: black;
+    color: white;
+}
+.header-logo{
+    float: left;
+    margin: 20px 40px;
+    font-size: 36px;
+}
+.header-list li{
+    float: right;
+    margin: 33px 20px;
+}
+.copy-container h1{
+    font-size: 100px;
+}
+.main{
+    padding:100px 80px ;
+}
